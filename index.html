@@ -144,16 +144,32 @@
       cursor: pointer;
     }
 
-    footer {
+      footer {
       margin-top: 3rem;
       font-size: 0.85rem;
       color: #aaa;
     }
-
+      .copyright,
     .built-by {
-      font-size: 0.70rem;
+      font-size: 0.85rem;
       margin-top: 0.5rem;
       color: #aaa;
+    }
+.sparkle-heart {
+      display: inline-block;
+      color: #E4A3B1;
+      animation: sparkle 1.5s infinite ease-in-out;
+    }
+
+    @keyframes sparkle {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.3);
+        opacity: 0.8;
+      }
     }
 
     .portrait-img {
